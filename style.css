@@ -1,0 +1,92 @@
+*
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(147, 147, 216);
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 40%;
+    border: 3px solid saddlebrown;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(161, 174, 239);
+    width: 100%;
+    height: 100%;
+    gap: 2em;
+    font-size: 1.4em;
+}
+form input,span
+{
+    width: 170px;
+    height: 40px;
+    border: 3px solid salmon;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    padding-left:5px;
+    background-color: aquamarine;
+    color: rgb(236, 11, 123);
+}
+.formula 
+{
+    color: rgb(88, 87, 84);
+    font-size: 1em;
+}
+.p
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn
+{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid firebrick;
+}
+span
+{
+    background-color: white;
+    color: black;
+}
+@media (max-width:800px)
+{
+    .container
+    {
+        height: 90vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    form 
+    {
+        width: 100%;
+    }
+    .code
+    {
+        border-top: 2px solid saddlebrown;
+        width: 100%;
+    }
+}
